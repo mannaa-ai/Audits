@@ -14,6 +14,9 @@
 5. [مصفوفة المتطلبات الإلزامية الـ 53 (وثائق وسجلات آيزو 20000-1) | Mandatory Documents & Records Compliance Matrix (53 Items)](#5-مصفوفة-المتطلبات-الإلزامية-الـ-53-وثائق-وسجلات-آيزو-20000-1--mandatory-documents--records-compliance-matrix-53-items)
 6. [المخطط التفصيلي لصياغة النماذج والوثائق المفقودة | Blueprint for Drafting Missing Operational Templates & Records](#6-المخطط-التفصيلي-لصياغة-النماذج-والوثائق-المفقودة--blueprint-for-drafting-missing-operational-templates--records)
 7. [معايير التنسيق الإلزامية لقالب العميل المؤسسي | Mandatory Corporate Template Formatting Standards](#7-معايير-التنسيق-الإلزامية-لقالب-العميل-المؤسسي--mandatory-corporate-template-formatting-standards)
+8. [متطلبات نطاق العمل ومخرجات المشروع (SOW) | Statement of Work (SOW) Requirements & Deliverables](#8-متطلبات-نطاق-العمل-ومخرجات-المشروع-sow--statement-of-work-sow-requirements--deliverables)
+9. [كيفية تلبية وتحقيق متطلبات العميل باحترافية | How to Satisfy Client Needs & Expectations](#9-كيفية-تلبية-وتحقيق-متطلبات-العميل-باحترافية--how-to-satisfy-client-needs--expectations)
+
 
 ---
 
@@ -706,3 +709,117 @@ This blueprint provides the definitive reference guide to structure, populate, a
    - خط **`SST Arabic`** لكافة النصوص والجداول والترويسات.
    - ترويسة الجداول الداخلية: خلفية كحلية (`#204E84`) ونص أبيض عريض مع تفعيل خاصية تكرار الترويسة `tblHeader`.
    - صفوف البيانات: تظليل تبادلي رمادي فاتح (`#F7FAFC`) مع منع انقسام الصفوف `cantSplit`.
+
+---
+
+## 8. متطلبات نطاق العمل ومخرجات المشروع (SOW) | Statement of Work (SOW) Requirements & Deliverables
+
+مرجع نطاق العمل التعاقدي: **SOW-ISO-P2-2026**
+المشروع: **الاستشارات والتجهيز لتدقيق إعادة الاعتماد الثالث لمواصفة ISO/IEC 20000-1:2018 لصندوق تنمية الموارد البشرية (هدف)**
+
+### مخرجات نطاق العمل التعاقدية (القسم 3 من SOW) | SOW Section 3 Expected Deliverables
+
+| رمز المخرج | اسم المخرج التعاقدي | متطلبات نطاق العمل (SOW Scope) | الصيغة المطلوبة | الوثيقة الحاكمة والملفات المسلمة |
+|:---:|---|---|:---:|---|
+| **3.1** | تقرير تقييم الفجوات الأولي <br> *Gap Assessment Report* | فحص ومراجعة شاملة لكافة الإجراءات الـ 25 والعمليات التشغيلية، ومطابقتها مع بنود آيزو 20000-1، وحصر الفجوات وتقديم خطة المعالجة. | Word (.docx) & Markdown (.md) | `Doc 38 - Clause 4-10 - HRDFIT ISO-IEC 20000-1 Recertification Audit Readiness & Gap Assessment Report V2.0.docx` |
+| **3.2** | مراجعة الوثائق وتقديم التعديلات <br> *Document Review & Feedback* | مراجعة تفصيلية (سطراً بسطر) لكافة وثائق النظام (Doc 01 إلى Doc 38)، وتحديث سياق المنشأة، والسياسات، والعمليات، وسجلات الأدلة التشغيلية. | Word (.docx), Excel (.xlsx), Markdown | `ANMAT_ITSM_Audit_Actionable_Drafting_List.md` وسجلات المراجعة الفنية لكافة البنود. |
+| **3.3** | بطاقة قياس الجاهزية للتدقيق ومستوى الالتزام <br> *Audit Readiness Scorecard* | تقييم كمي لدرجة الامتثال والالتزام لكل بند فرعي (من بند 4 إلى 10)، ومطابقة الأدلة التشغيلية، وحساب النضج ومستوى الالتزام المؤسسي. | Excel (.xlsx), Word (.docx), HTML | `AN-HADAF - ISO20000_Mandatory_Documents_Compliance_Adherence_Matrix.xlsx` و `AN-HADAF - Compliance_and_Adherence_Level_Report_2026.docx` |
+| **3.4** | التدقيق الداخلي التجريبي ومحاكاة المقابلات <br> *Pre-Audit Mock Review* | تنفيذ محاكاة واقعية لتدقيق الجهة المانحة، وتطبيق سيناريوهات فحص الأدلة، واختبار وتدريب ملاك العمليات على الدفاع عن إجراءاتهم. | Word (.docx), Excel (.xlsx) | `AN-HADAF - ISO20000-1_Internal_Audit_Plan_2026.docx`, `AN-HADAF - ISO20000-1_Internal_Audit_Report_2026.docx`, و `Mock_Audit_Test_Scripts.docx` |
+| **3.5** | خطة التدقيق النهائي والعرض التنفيذي للإدارة <br> *Final Audit Plan & Executive Presentation* | إعداد خطة التدقيق الخارجي النهائي، وتجهيز العرض التقديمي الشامل للإدارة العليا، وبيان حالة الجاهزية بنسبة 100% والتوصية غير المشروطة بالاعتماد. | PowerPoint (.pptx), Word (.docx), Excel | `ANMAT_ISO20000_P2_Audit_Readiness_Executive_Presentation.pptx` و `Universal_ISO_Audit_Plan_2026.docx` |
+
+---
+
+### مراحل المشروع ونقاط الإنجاز الرئيسية (القسم 7 من SOW) | SOW Section 7 Milestones (M1 – M7)
+
+| رمز المرحلة | المرحلة ونقطة الإنجاز (Milestone) | الوصف ونطاق الإنجاز التعاقدي | المسؤول | الفترة الزمنية | حالة الإنجاز |
+|:---:|---|---|:---:|:---:|:---:|
+| **M1** | تدشين المشروع والمواءمة <br> *Kick-Off & Alignment* | عقد الاجتماع الافتتاحي، استلام وثائق العميل، وتحديد نطاق التدقيق والأنظمة الـ 13. | الطرفان (هدف و أنمات) | الأسبوع 1 | **مكتمل 100%** |
+| **M2** | تسليم تقرير الفجوات <br> *Gap Assessment Delivered* | تسليم التقرير الشامل لحصر الفجوات (54 بند فرعي) وخطة العمل التصحيحية المعتمدة. | الاستشاري (أنمات) | الأسبوع 2 | **مكتمل 100%** |
+| **M3** | مراجعة وتحديث الوثائق (الجولة الأولى) <br> *Document Review - Round 1* | تحديث وثائق الحوكمة الإلزامية وسياسات ومجال النظام والإجراءات التشغيلية. | الاستشاري (أنمات) | الأسبوع 2 - 3 | **مكتمل 100%** |
+| **M4** | مراجعة الوثائق وربط الأدلة (الجولة الثانية) <br> *Document Review - Round 2* | ربط الأدلة التشغيلية الحديثة لعام 2026، وتحديث اتفاقيات SLA/OLA ونماذج العمل. | الاستشاري (أنمات) | الأسبوع 3 - 4 | **مكتمل 100%** |
+| **M5** | تنفيذ التدقيق الداخلي التجريبي <br> *Pre-Audit Mock Review Conducted* | تنفيذ التدقيق الداخلي، إصدار تقارير عدم المطابقة CAR، والتأكد من إغلاق الملاحظات. | الاستشاري (أنمات) | الأسبوع 4 | **مكتمل 100%** |
+| **M6** | تسليم بطاقة الجاهزية النهائية <br> *Final Readiness Scorecard Delivered* | تسليم تقرير النضج، مصفوفة التطبيق SoA، وسجل الوثائق والسجلات الإلزامية الـ 53. | الاستشاري (أنمات) | الأسبوع 5 | **مكتمل 100%** |
+| **M7** | الجاهزية التامة للتدقيق الخارجي <br> *External Audit Ready & Sign-Off* | الاعتماد النهائي من الإدارة العليا، والدخول في تدقيق جهة المنح الدولية بنجاح. | الطرفان (هدف و أنمات) | الأسبوع 5 - 6 | **جاهز بنسبة 100%** |
+
+---
+
+### معايير القبول والاعتماد التعاقدية (القسم 8 من SOW) | SOW Section 8 Acceptance Criteria (8.1 – 8.6)
+
+1. **معيار 8.1 - التغطية الشاملة لجميع بنود المواصفة (Full Coverage)**:
+   - تغطية تامة لجميع بنود مواصفة ISO/IEC 20000-1:2018 من البند 4 إلى البند 10 دون استثناء أي متطلب.
+2. **معيار 8.2 - انعدام حالات عدم المطابقة الجسيمة (Zero Major Nonconformities)**:
+   - إغلاق ومعالجة كافة حالات عدم المطابقة المكتشفة في التدقيق السابق وضمان جاهزية النظام بنسبة 100%.
+3. **معيار 8.3 - التحقق المادي من الأدلة التشغيلية الحية (Live Operational Evidence)**:
+   - ربط كل عملية وإجراء بأدلة تشغيلية واقعية ومحدثة مؤرخة في **عام 2026** ومستخرجة من أنظمة العميل الفعلية (ManageEngine, Nutanix, Alibaba, Active Directory).
+4. **معيار 8.4 - الالتزام التام بقالب وهوية العميل المؤسسية (Corporate Template Conformance)**:
+   - تطابق كافة وثائق المخرجات (Doc 01 إلى Doc 38 والنماذج) مع قالب العميل (خط SST Arabic، اللون الكحلي `#204E84`، جدول الضبط 6 صفوف، جدول الاعتمادات، وفاصل الصفحات).
+5. **معيار 8.5 - تأهيل وتدريب الكوادر وملاك العمليات (Auditee Defense Coaching)**:
+   - إعداد وتأهيل مسؤولي العمليات (مدراء الأنظمة، مسؤولي الدعم، رؤساء الأقسام) للإجابة بثقة على أسئلة المدقق الخارجي وتقديم الأدلة بسرعة.
+6. **معيار 8.6 - الاعتماد والتوقيع الرسمي من قيادة تقنية المعلومات (Formal Acceptance Sign-Off)**:
+   - الحصول على الاعتماد والتوقيع الإلكتروني من مدير عام تقنية المعلومات ومدير إدارة العمليات والبنية التحتية.
+
+---
+
+## 9. كيفية تلبية وتحقيق متطلبات العميل باحترافية | How to Satisfy Client Needs & Expectations
+
+لتحقيق متطلبات ورغبات العميل (صندوق تنمية الموارد البشرية - هدف) بأعلى معايير الدقة والاحترافية، يجب الالتزام بالمبادئ التوجيهية التالية:
+
+### باللغة العربية (Arabic Guidance)
+
+1. **تحقيق الجاهزية التامة لتدقيق إعادة الاعتماد وانعدام الملاحظات (Zero NCs Strategy)**:
+   - **الهدف**: اجتياز تدقيق جهة المنح الدولية (Certification Body) بنجاح والحصول على شهادة الآيزو 20000-1 المجددة دون تسجيل أي حالة عدم مطابقة كبرى (Major NC) أو صغرى (Minor NC).
+   - **آلية التنفيذ**: مطابقة كل بند فرعي (من 4.1 إلى 10.3) مع دليل إثبات مؤرخ وموقع وموثق، والتأكد من توافر الوثائق والسجلات الإلزامية الـ 53.
+
+2. **الاعتماد الصارم على أدلة التشغيل الحقيقية لعام 2026 (Operational Authenticity)**:
+   - **الهدف**: تلبية رغبة العميل في إثبات التطبيق العملي اليومي لعمليات إدارة الخدمات وعدم الاعتماد على مجرد وثائق نظرية.
+   - **آلية التنفيذ**: استخراج وتضمين البيانات الفعلية لعام 2026:
+     - محاضر مجلس التغيير الأسبوعية (CAB) لشهري مايو ويونيو 2026 ومحضر نظام وصول في سبتمبر 2026.
+     - تقارير الأداء التشغيلي الشهري للربع الأول والثاني لعام 2026 للخدمات الـ 13.
+     - تقارير سعة الخوادم الفعلية لـ 8 أشهر (يناير - أغسطس 2026).
+     - تقرير اختبار التعافي من الكوارث ITDR 2026 وفحص الثغرات VAPT للربع الثالث 2026.
+
+3. **المحافظة المطلقة على الهوية البصرية والقالب المعتمد للعميل (Template Integrity)**:
+   - **الهدف**: تقديم وثائق تماثل تماماً في شكلها وتنسيقها وثائق العميل الرسمية الصادرة من إدارته.
+   - **آلية التنفيذ**: تطبيق معايير التنسيق المؤسسية المشروحة في البند 7 (خط SST Arabic، الهوامش القياسية، صفحة الغلاف بجداولها الثلاثة الرسمية، التوقيعات الثلاثية المعتمدة: ريان مكي، عبد الرحمن غبان، عبد الستار الميماني، والترويسة العلوية والتذييل السفلي المستمر).
+
+4. **المواءمة مع الأنظمة والتشريعات الوطنية للمملكة العربية السعودية (National Regulatory Alignment)**:
+   - **الهدف**: ضمان توافق نظام إدارة خدمات تقنية المعلومات في صندوق هدف مع المتطلبات السيادية والحكومية.
+   - **آلية التنفيذ**:
+     - مواءمة سياسة وإجراءات أمن المعلومات (البند 8.7.3) مع الضوابط الأساسية للأمن السيبراني الصادرة من الهيئة الوطنية للأمن السيبراني (NCA ECC-1:2018).
+     - مواءمة دليل الخدمات والتكامل الرقمي مع متطلبات هيئة الحكومة الرقمية (DGA) وبرنامج التحول الوطني ضمن رؤية المملكة 2030.
+
+5. **تمكين ملاك العمليات وتأهيلهم لمقابلات التدقيق (Auditee Empowerment & Defense)**:
+   - **الهدف**: رفع ثقة فريق تقنية المعلومات الداخلي بالصندوق أثناء جلسات التدقيق مع المراجع الخارجي.
+   - **آلية التنفيذ**: تزويد ملاك العمليات بأدلة التدريب وسيناريوهات المقابلات (Mock Audit Scripts)، وتدريبهم على استخراج الأدلة من نظام ManageEngine و CMDB خلال أقل من دقيقتين عند طلب المدقق.
+
+6. **الاستدامة التشغيلية وتسهيل التحديث المستمر (Operational Sustainability)**:
+   - **الهدف**: تمكين فريق الصندوق من إدارة وتحديث الوثائق والسجلات ذاتياً بعد انتهاء المشروع الاستشاري.
+   - **آلية التنفيذ**: تقسيم المجلدات إلى `Old` و `New`، وتوفير دليل التواريخ الأصلية ونماذج العمل القابلة لإعادة الاستخدام السنوي (SDP, PIR, CAR, CSI Scorecards).
+
+---
+
+### English Guidance (How to Satisfy Client Needs)
+
+1. **Guaranteed Recertification Audit Success (Zero Nonconformities)**:
+   - **Objective**: Ensure HRDF successfully achieves ISO/IEC 20000-1:2018 recertification with zero major or minor findings from the external certification body.
+   - **Execution**: Map each of the 54 sub-clauses against objective, verifiable evidence; maintain rigorous coverage across all 53 mandatory documents and records.
+
+2. **Genuine Operational Authenticity (2026 Evidence Baseline)**:
+   - **Objective**: Fulfill the client's requirement for empirical proof that ITSMS processes are embedded in daily operations.
+   - **Execution**: Provide live operational telemetry from 2026: Q1 & Q2 monthly service reports, 7 weekly CAB logs, 8-month server CPU/RAM utilization data, ITDR disaster recovery drill reports, and Q3 2026 VAPT security assessments.
+
+3. **Strict Corporate Template Conformance & Branding**:
+   - **Objective**: Ensure every deliverable matches the client's corporate identity and official Word document format.
+   - **Execution**: Enforce SST Arabic font, `#204E84` primary navy branding, exact A4 margins (Top 0.59", Bottom 0.39", Left/Right 1.25"), 3-tier cover page tables, formal page breaks, and the 3 official signatories (Rayan Makki, Abdulrahman Ghibban, Abdulsattar Almaimani).
+
+4. **Alignment with Saudi National Regulations & Vision 2030**:
+   - **Objective**: Validate that HRDF's ITSMS strictly adheres to Saudi governmental mandates.
+   - **Execution**: Align security procedures with the National Cybersecurity Authority (NCA ECC-1:2018), Digital Government Authority (DGA) standards, and Kingdom Vision 2030 digital transformation directives.
+
+5. **Process Owner Coaching & Audit Defense Readiness**:
+   - **Objective**: Empower HRDF process owners to navigate external auditor interviews with confidence.
+   - **Execution**: Provide role-specific mock audit scripts, evidence retrieval walkthroughs in ManageEngine ServiceDesk Plus, and coaching to present required artifacts within 2 minutes of an auditor request.
+
+6. **Long-Term Operational Sustainability**:
+   - **Objective**: Enable the client team to maintain, audit, and improve the ITSMS independently for years to come.
+   - **Execution**: Establish the clear `Old/` vs `New/` repository architecture, maintain an audit-ready records taxonomy, and supply standardized operational templates (SDP, PIR, Supplier Scorecard, CAR, CSI).
